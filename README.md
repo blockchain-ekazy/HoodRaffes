@@ -1,3 +1,4 @@
+![Hood Raffes](https://user-images.githubusercontent.com/100062048/155754381-b41df919-a1ac-40d1-a025-5f7a17cb9e3c.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
