@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@font-face {
+  font-family: "AttackGraffiti";
+  src: url(./fonts/AttackGraffiti.woff2);
+}
+@font-face {
+  font-family: "MuseoSlab";
+  src: url(./fonts/MuseoSlab.woff);
+}
+* {
+  font-family: Arial;
+}
+.mint-btn {
+  border: none;
+  color: black;
+  /* background-image: url(./images/btnbg.png); */
+  padding: 12px 30px;
+  font-size: 19px;
+  font-weight: 600;
+  /* letter-spacing: 1px; */
+  border-radius: 5px;
+  font-family: MuseoSlab;
+  /* margin: 15px; */
+  /* border: 0 solid black; */
+  /* box-shadow: 0 0 0 1px #d7d7d7; */
+  /* border-top-width: 5px; */
+  /* border-right-width: 5px; */
+  background-color: #fcdc1f;
+}
+.mint-btn:focus,
+.minus:focus,
+.plus:focus {
+  border: 0;
+}
+body {
+  background-color: #000 !important;
+}
+.mintwrap {
+  display: flex;
+}
+.minus,
+.plus {
+  border: none;
+  /* border: 1px solid white; */
+  color: black;
+  /* background-image: url(./images/btnbg.png); */
+  padding: 12px 30px;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 600;
+  /* letter-spacing: 1px; */
+  border-radius: 3px;
+  font-family: MuseoSlab;
+  margin: 0 5px;
+  background-color: #fcdc1f;
+  /* border: 0 solid black; */
+  /* box-shadow: 0 0 0 1px #d7d7d7; */
+  /* border-top-width: 5px; */
+  /* border-right-width: 5px; */
+}
+.container {
+  max-width: 1080px !important;
+}
+.mintingsection {
+  z-index: 3;
+  position: relative;
+  max-width: 325px;
+  margin: auto !important;
+}
+.mint-btn b {
+  font-weight: 900 !important;
+  font-size: 22px;
+}
+.mintwrap {
+  display: flex;
+}
+.heroimg {
+  width: 900px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+.text-right {
+  text-align: right;
+}
+
+.supplytext {
+  text-align: center;
+  color: white;
+  font-family: MuseoSlab;
+}
+
+.titletext {
+  font-family: AttackGraffiti;
+  color: #fcdc1f;
+  font-weight: 100;
+}
+.hero .titletext {
+  font-size: 50px;
+}
+.gifimg {
+  /* max-width: 234px; */
+  margin: auto;
+  display: block;
+}
+.team img {
+  width: 100%;
+  border: 0 solid black;
+  /* border: 1px solid white; */
+  padding: 15px;
+  margin-top: 20px;
+  transition-duration: 0.05s;
+}
+p,
+ul,
+li {
+  font-size: 20px !important;
+  font-family: MuseoSlab !important;
+}
+.registerFont {
+  font-size: 16px !important;
+}
+.teamname {
+  text-align: center;
+  color: #fcdc1f;
+  font-family: AttackGraffiti;
+  /* color: #fcdc1f; */
+}
+
+.oslogo {
+  max-width: 200px;
+  margin: auto;
+  display: block;
+}
+hr {
+  background-color: white !important;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+.float-right {
+  float: right;
+}
+.hero {
+  background-image: url(./images/herobg2.webp);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  background-color: #0006;
+}
+.hero .container .row {
+  min-height: 90vh;
+}
+.gifimg:hover,
+.team img:hover {
+  /* padding: 0 !important; */
+}
+.footer i {
+  font-size: 18px;
+  color: #fcdc1f;
+}
+.icons3 img {
+  max-width: 80px;
+  margin: auto;
+  display: block;
+}
+.icons3 p {
+  font-size: 17px;
+  padding-top: 15px;
+}
+nav a {
+  font-family: MuseoSlab;
+  color: white !important;
+}
+nav a:hover {
+  color: #fcdc1f !important;
+}
+.navbar-collapse {
+  height: auto !important;
+  background-color: transparent !important;
+  top: 70px !important;
+  left: 0px !important;
+  width: 100% !important;
+}
+@media screen and (max-width: 991px) {
+  .navbar-collapse {
+    background-color: black !important;
+    box-shadow: 0px 2px 6px 0px #fff9;
+  }
+}
+nav {
+  width: 1080px !important;
+  max-width: 95%;
+  margin: auto;
+  padding: 15px !important;
+  /* background-color: black !important; */
+}
+.navbar-brand {
+  font-family: AttackGraffiti;
+  color: #fcdc1f !important;
+  font-size: 25px !important;
+  font-weight: 400;
+}
+.team small {
+  font-size: medium !important;
+  font-family: MuseoSlab;
+}
+.sptlogo {
+  width: 120px;
+}
+.blurbg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000c;
+  z-index: -1;
+  filter: blur(10px);
+}
+.mailchimpform {
+  /* max-width: 250px; */
+  margin: auto;
+}
+.mailchimpform input,
+.mailchimpform button {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  text-align: center;
+  padding: 10px 30px;
+  font-size: 15px;
+  display: block !important;
+  max-width: auto;
+  width: 100%;
+  margin: 10px 0;
+}
+.mailchimpform p {
+  font-size: 15px;
+}
+.mailchimpform button {
+  background-color: #fcdc1f;
+  border-color: #fcdc1f;
+}
+.sending {
+  color: #fcdc1f;
+}
+.welcome i {
+  font-size: 30px;
+}
+.storybg {
+  height: 70vh;
+  width: 100%;
+  object-fit: cover;
+}
+#team {
+  min-height: 100vh;
+}
+#team a {
+  text-decoration: none;
+}
+.hero h1 {
+  text-shadow: 0 0 30px black, 0 0 30px black, 0 0 30px black;
+}
+.text-acenter {
+  text-align: center;
+}
+@media screen and(min-width: 768px) {
+  .text-md-left {
+    text-align: left !important;
+  }
+}
